@@ -1,0 +1,24 @@
+{"timestamp": "2025-08-31T13:57:48.712135Z", "event_type": "escalation_reason", "payload": {"reason": "unknown_or_complex", "input": "babar"}}
+{"timestamp": "2025-08-31T13:57:48.712713Z", "event_type": "handoff_initiated", "payload": {"from": "BotAgent", "to": "HumanAgent", "context": {"user_input": "babar", "reason": "unknown_or_complex", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T13:57:48.713186Z", "event_type": "human_agent_received", "payload": {"context": {"user_input": "babar", "reason": "unknown_or_complex", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T13:58:16.858339Z", "event_type": "tool_invoked", "payload": {"tool": "get_order_status", "order_id": "A100", "user_input": "check order A100"}}
+{"timestamp": "2025-08-31T13:58:16.863744Z", "event_type": "tool_success", "payload": {"tool": "get_order_status", "order_id": "A100"}}
+{"timestamp": "2025-08-31T13:58:29.531797Z", "event_type": "guardrail_triggered", "payload": {"reason": "offensive_language", "input": "you are stupid"}}
+{"timestamp": "2025-08-31T13:58:41.305810Z", "event_type": "escalation", "payload": {"reason": "negative_sentiment", "input": "I am unhappy with my order"}}
+{"timestamp": "2025-08-31T13:58:41.306072Z", "event_type": "handoff_initiated", "payload": {"from": "BotAgent", "to": "HumanAgent", "context": {"user_input": "I am unhappy with my order", "reason": "negative_sentiment", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T13:58:41.306224Z", "event_type": "human_agent_received", "payload": {"context": {"user_input": "I am unhappy with my order", "reason": "negative_sentiment", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T14:09:25.753917Z", "event_type": "escalation", "payload": {"reason": "negative_sentiment", "input": "I am unhappy with my order"}}
+{"timestamp": "2025-08-31T14:09:25.754219Z", "event_type": "handoff_initiated", "payload": {"from": "BotAgent", "to": "HumanAgent", "context": {"user_input": "I am unhappy with my order", "reason": "negative_sentiment", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T14:09:25.754399Z", "event_type": "human_agent_received", "payload": {"context": {"user_input": "I am unhappy with my order", "reason": "negative_sentiment", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T14:09:35.249500Z", "event_type": "escalation_reason", "payload": {"reason": "unknown_or_complex", "input": "ok"}}
+{"timestamp": "2025-08-31T14:09:35.249759Z", "event_type": "handoff_initiated", "payload": {"from": "BotAgent", "to": "HumanAgent", "context": {"user_input": "ok", "reason": "unknown_or_complex", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T14:09:35.249916Z", "event_type": "human_agent_received", "payload": {"context": {"user_input": "ok", "reason": "unknown_or_complex", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T14:10:32.455942Z", "event_type": "escalation_reason", "payload": {"reason": "unknown_or_complex", "input": "babar"}}
+{"timestamp": "2025-08-31T14:10:32.456179Z", "event_type": "handoff_initiated", "payload": {"from": "BotAgent", "to": "HumanAgent", "context": {"user_input": "babar", "reason": "unknown_or_complex", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T14:10:32.456390Z", "event_type": "human_agent_received", "payload": {"context": {"user_input": "babar", "reason": "unknown_or_complex", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T14:10:37.329741Z", "event_type": "escalation_reason", "payload": {"reason": "unknown_or_complex", "input": "babar"}}
+{"timestamp": "2025-08-31T14:10:37.330016Z", "event_type": "handoff_initiated", "payload": {"from": "BotAgent", "to": "HumanAgent", "context": {"user_input": "babar", "reason": "unknown_or_complex", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T14:10:37.330171Z", "event_type": "human_agent_received", "payload": {"context": {"user_input": "babar", "reason": "unknown_or_complex", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T14:10:47.313825Z", "event_type": "escalation_reason", "payload": {"reason": "unknown_or_complex", "input": "how are you"}}
+{"timestamp": "2025-08-31T14:10:47.314434Z", "event_type": "handoff_initiated", "payload": {"from": "BotAgent", "to": "HumanAgent", "context": {"user_input": "how are you", "reason": "unknown_or_complex", "metadata": {"customer_id": null}}}}
+{"timestamp": "2025-08-31T14:10:47.314623Z", "event_type": "human_agent_received", "payload": {"context": {"user_input": "how are you", "reason": "unknown_or_complex", "metadata": {"customer_id": null}}}}
